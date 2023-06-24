@@ -1515,11 +1515,6 @@ ast-types-flow@^0.0.7:
   resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
   integrity sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==
 
-async-await-queue@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/async-await-queue/-/async-await-queue-1.2.1.tgz#baf459f5fbac902b060a88fee4da853fd86f2128"
-  integrity sha512-v2j+/EMzAnuJZ8I4570KJMFhi6G9g3WZyFh6cPnmQSJh3nLao77XpRt01kyFegQazPSKvue1yaIYDp/NfV/b0g==
-
 autoprefixer@^10.4.14:
   version "10.4.14"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.14.tgz#e28d49902f8e759dd25b153264e862df2705f79d"
@@ -2851,19 +2846,17 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-livekit-client@1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/livekit-client/-/livekit-client-1.7.1.tgz#0d21f8484c52ca858e474a9ebe844de143874f71"
-  integrity sha512-MFLgXdyxd6VateuHFn+diXqFtuaQc/cB4TZBkAJMCMN7oXIvo0IxEEK+wsqRyEloln4eEBNjpFNZiIffJ2Ph9A==
+livekit-client@1.9.7:
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/livekit-client/-/livekit-client-1.9.7.tgz#51e7d8975ce7dcbfd51e91a8f9221f5868a1e606"
+  integrity sha512-w0WjLat0qF76l71esjTXam5JE+7vCpBF6WW+oloHFNBIVtEzEnBZa2JUo/e2oWN2YypEO5MjCIDPo7Tuvo9clA==
   dependencies:
-    async-await-queue "^1.2.1"
     events "^3.3.0"
     loglevel "^1.8.0"
     protobufjs "^7.0.0"
     sdp-transform "^2.14.1"
     ts-debounce "^4.0.0"
     typed-emitter "^2.1.0"
-    ua-parser-js "^1.0.2"
     webrtc-adapter "^8.1.1"
 
 livekit-server-sdk@1.1.0:
@@ -3848,11 +3841,6 @@ typescript@4.9.5:
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
-
-ua-parser-js@^1.0.2:
-  version "1.0.35"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.35.tgz#c4ef44343bc3db0a3cbefdf21822f1b1fc1ab011"
-  integrity sha512-fKnGuqmTBnIE+/KXSzCn4db8RTigUzw1AN0DmdU6hJovUTbYJKyqj+8Mt1c4VfRDnOVJnENmfYkIPZ946UrSAA==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
