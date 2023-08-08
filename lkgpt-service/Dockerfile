@@ -15,7 +15,7 @@ COPY pkg/ pkg/
 
 RUN go build -o livegpt ./cmd/server
 
-FROM alpine
+FROM alpine:3.18.3
 
 COPY --from=builder /workspace/livegpt /livegpt
 
